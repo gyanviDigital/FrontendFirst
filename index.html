@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+</head>
+
+<body>
+    <header class="h-auto flex border-b-2 b-black  ">
+        <div id="h-box-left" style=" width: 80%; height: full; padding: 15px; text-align: start; place-items: center;">
+            <!--title-->
+            <button class=" mr-4 flex float-left justify-items-start place-items-center">
+                <span class="text-4xl font-bold font-serif text-orange-500 pr-1">F</span>
+                <svg class="text-yellow-400" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                    fill="currentColor" class="bi bi-egg-fried" viewBox="0 0 16 16">
+                    <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    <path
+                        d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z" />
+                </svg>
+                <span class="pl-1 text-4xl font-bold font-serif text-orange-500">ODS</span>
+            </button>
+            <!--Search btn and text-->
+            <div class=" searchBox">
+                <div id="searchText" class="float-left text-2xl font-mono font-bold mr-4 ">Search the delesious Food
+                </div>
+                <input type="search" placeholder="Seach Food"
+                    class="bg-gray-200 w-80 pt-0.5 pb-0.5 pl-4 overflow-hidden rounded outline-none text-xl "
+                    id="search">
+            </div>
+            <!--second div for use location-->
+        </div>
+        <div id="h-box-right" style="width: 20%; height: full; padding: 15px; text-align: start; place-items: center;">
+            <div class="float-right w-10 h-cover">
+                <svg class="text-orange-500" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                    fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                </svg>
+            </div>
+        </div>
+    </header>
+    <!--start main content here-->
+    <main class="h-full p-2">
+        <!--Items first-->
+        <div id="box1" class="h-60 w-full flex ">
+            <div class="box1Text w-1/2 text-6xl z-20 text-orange-500 grid place-items-center"><span> Order Food Online
+                    in Gorakhpur </span>
+                <svg class="place-self-start" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+                    <line x1="9" y1="9" x2="9.01" y2="9" />
+                    <line x1="15" y1="9" x2="15.01" y2="9" />
+                </svg>
+                <br>
+            </div>
+            <div class="box1Image  w-1/2 grid place-items-center">
+                <img class="w-cover " src="Image/pizza2.webp" alt="">
+            </div>
+        </div>
+        <br>
+        <!-- Items second-->
+        <div class="mt-14 w-cover grid place-items-center border-b-2 border-gray-200">
+            <p class="text-4xl font-bold text-start">What's on my mind ?</p>
+
+            <div class="container ">
+
+                <div class="box">
+                    <img class="w-full h-36" src="Pizza1.jpg" alt="">
+                    <p class="text-center text-2xl">Pizza</p>
+                </div>
+                <div class="box">
+                    <img class="w-full h-36" src="Image/north.jpg" alt="">
+                    <p class="text-center text-2xl">North-Indian-Thali</p>
+                </div>
+
+                <div class="box">
+                    <img class="w-full h-36" src="Image/burger.jpg" alt="">
+                    <p class="text-center text-2xl">Burger</p>
+                </div>
+                <div class="box">
+                    <img class="w-full h-36" src="Image/burger2.jpg" alt="">
+                    <p class="text-center text-2xl">King-Burger</p>
+                </div>
+                <div class="box">
+                    <img class="w-full h-36" src="Image/eggroll.jpg" alt="">
+                    <p class="text-center text-2xl">Egg-roll</p>
+                </div>
+                <div class="box">
+                    <img class="w-full h-36" src="Image/eggroll2.jpg" alt="">
+                    <p class="text-center text-2xl">Chicken-Egg-roll</p>
+                </div>
+                <div class="box">
+                    <img class="w-full h-36" src="Image/chowmeen.jpg" alt="">
+                    <p class="text-center text-2xl">Chowmine</p>
+                </div>
+                <div class="box">
+                    <img class="w-full h-36" src="Image/chicken.webp" alt="">
+                    <p class="text-center text-2xl">Chicken</p>
+                </div>
+                <div class="box">
+                    <img class="w-full h-36" src="Image/chicken2.webp" alt="">
+                    <p class="text-center text-2xl">Meet</p>
+                </div>
+                <div class="box">
+                    <img class="w-full h-36" src="Image/motton.jpg" alt="">
+                    <p class="text-center text-2xl">Motton</p>
+                </div>
+
+
+                <!--add new card-items-->
+            </div>
+
+        </div>
+
+        <!--top food in gorakhpur-->
+        <div class="mt-14 inline-block overflow-x-auto w-cover grid place-items-center border-b-2 border-gray-200">
+             <p class="text-4xl font-bold"> Gorakhpuri Fresh & Famous dish ...</p>
+            <div class="h-80 flex overflow-x-auto place-items-center inline-block place-self-center ">
+       
+    <div class="h-full p-4 gap-2 topDiv">
+            <div class="shadow-black shadow mr-2 w-52 h-72 bg-gray-200 overflow-hidden rounded">
+                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" style="background-image: url(img/dal.jpg);"></div>
+                <div class="pl-1 pr-1 img2Text">
+                    <h2 class="img2Title text-xl text-center ">Indian Puls</h2>
+                    <p class="text-start">Experience the vibrant flavors of India with our authentic pulses, packed with rich taste and nutritional goodness.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-full p-4 gap-2 topDiv">
+            <div class="shadow-black shadow mr-2 w-52 h-72 bg-gray-200 overflow-hidden rounded">
+                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" style="background-image: url(img/biryani.jpg);"></div>
+                <div class="pl-1 pr-1 img2Text">
+                    <h2 class="img2Title text-xl text-center ">Biryani</h2>
+                    <p class="text-start">Savory spices, tender meat, aromatic rice—biryani, a flavorful delight</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-full p-4 gap-2 topDiv">
+            <div class="shadow-black shadow mr-2 w-52 h-72 bg-gray-200 overflow-hidden rounded">
+                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" style="background-image: url(img/frout.jpg);"></div>
+                <div class="pl-1 pr-1 img2Text">
+                    <h2 class="img2Title text-xl text-center ">Frouts</h2>
+                    <p class="text-start">Start your day fresh with a colorful array of morning fruits.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-full p-4 gap-2 topDiv">
+            <div class="shadow-black shadow mr-2 w-52 h-72 bg-gray-200 overflow-hidden rounded">
+                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" style="background-image: url(img/northIndianFood.jpg);"></div>
+                <div class="pl-1 pr-1 img2Text">
+                    <h2 class="img2Title text-xl text-center ">North-Indian-Thali</h2>
+                    <p class="text-start">Experience the rich flavors of North Indian cuisine in our authentic thali, a culinary tradition passed down through generations</p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+  </div>
+      
+  <!--Restaurants with online food delivery in-->
+  <div  class="mt-10 h-auto inline-block overflow-x-auto grid w-cover gap-4  place-items-center topRestorentBox">
+    <h1 class="text-3xl " >Restaurants with online food delivery in Gorakhpur</h1>
+   <div class="  filterBtn">
+    <button class="btn8">Filter</button>
+    <button class="btn8">Sort By</button> 
+    <button class="btn8">Fast Delivery</button>
+    <button class="btn8">New on Foods</button>
+    <button class="btn8">Pure Veg</button>
+    <button class="btn8">Offers</button> 
+    <button class="btn8">Rs.300-Rs.500</button>
+    <button class="btn8">Less than Rs.300</button>
+   </div>
+    <div style="height: 750px;" class=" overflow-x-auto place-items-center inline-block place-self-center img3box2">
+<!--box3 of 1-->
+        <div class="img3box1 flex">
+            
+        <div class="rounded flex shadow shadow-black mr-10 mb-2  w-80 h-60 img3Box" >
+            <div class="w-2/4 bg-cover bg-center img3" style="background-image: url(img/chickenLeg.jpg);"></div>
+            <div class="w-2/4 border border-black text-center place-items-center pt-10 pr-2 img3Text">
+                <h1 class="text-2xl">Chola Rice Combo</h1>
+                <h1 class="text-lg">&#8377; <strike>300</strike> 299 Only</h1>
+                <p class="text-sm">Thalis, North Indian, Chinese, Biryani
+                    Vidhansabha Marg</p>
+            </div>
+        </div>
+        
+        <div class="rounded flex shadow shadow-black mr-10 mb-2  w-80 h-60 img3Box" >
+            <div class="w-2/4 bg-cover bg-center img3" style="background-image: url(img/fishFry.jpg);"></div>
+            <div class="w-2/4 border border-black text-center place-items-center pt-10 pr-2 img3Text">
+                <h1 class="text-2xl">Chola Rice Combo</h1>
+                <h1 class="text-lg">&#8377; <strike>300</strike> 299 Only</h1>
+                <p class="text-sm">Thalis, North Indian, Chinese, Biryani
+                    Vidhansabha Marg</p>
+            </div>
+        </div>
+        
+        <div class="rounded flex shadow shadow-black mr-10 mb-2  w-80 h-60 img3Box" >
+            <div class="w-2/4 bg-cover bg-center img3" style="background-image: url(img/eggBowl.jpg);"></div>
+            <div class="w-2/4 border border-black text-center place-items-center pt-10 pr-2 img3Text">
+                <h1 class="text-2xl">Chola Rice Combo</h1>
+                <h1 class="text-lg">&#8377; <strike>300</strike> 299 Only</h1>
+                <p class="text-sm">Thalis, North Indian, Chinese, Biryani
+                    Vidhansabha Marg</p>
+            </div>
+        </div>
+        
+        
+
+        </div>
+<!--box 3 of 2-->
+<div class="img3box1 flex">
+            
+    <div class="rounded flex shadow shadow-black mr-10 mb-2  w-80 h-60 img3Box" >
+        <div class="w-2/4 bg-cover bg-center img3" style="background-image: url(img/chickenFry.jpg);"></div>
+        <div class="w-2/4 border border-black text-center place-items-center pt-10 pr-2 img3Text">
+            <h1 class="text-2xl">Chola Rice Combo</h1>
+            <h1 class="text-lg">&#8377; <strike>300</strike> 299 Only</h1>
+            <p class="text-sm">Thalis, North Indian, Chinese, Biryani
+                Vidhansabha Marg</p>
+        </div>
+    </div>
+    
+    <div class="rounded flex shadow shadow-black mr-10 mb-2  w-80 h-60 img3Box" >
+        <div class="w-2/4 bg-cover bg-center img3" style="background-image: url(img/chickenPatti.jpg);"></div>
+        <div class="w-2/4 border border-black text-center place-items-center pt-10 pr-2 img3Text">
+            <h1 class="text-2xl">Chola Rice Combo</h1>
+            <h1 class="text-lg">&#8377; <strike>300</strike> 299 Only</h1>
+            <p class="text-sm">Thalis, North Indian, Chinese, Biryani
+                Vidhansabha Marg</p>
+        </div>
+    </div>
+    
+    <div class="rounded flex shadow shadow-black mr-10 mb-2  w-80 h-60 img3Box" >
+        <div class="w-2/4 bg-cover bg-center img3" style="background-image: url(img/chickenRoti.jpg);"></div>
+        <div class="w-2/4 border border-black text-center place-items-center pt-10 pr-2 img3Text">
+            <h1 class="text-2xl">Chola Rice Combo</h1>
+            <h1 class="text-lg">&#8377; <strike>300</strike> 299 Only</h1>
+            <p class="text-sm">Thalis, North Indian, Chinese, Biryani
+                Vidhansabha Marg</p>
+        </div>
+    </div>
+    
+    
+
+    </div>
+<!--box 3 of 3-->
+<div class="img3box1 flex">
+            
+    <div class="rounded flex shadow shadow-black mr-10 mb-2  w-80 h-60 img3Box" >
+        <div class="w-2/4 bg-cover bg-center img3" style="background-image: url(img/dal2.jpg);"></div>
+        <div class="w-2/4 border border-black text-center place-items-center pt-10 pr-2 img3Text">
+            <h1 class="text-2xl">Chola Rice Combo</h1>
+            <h1 class="text-lg">&#8377; <strike>300</strike> 299 Only</h1>
+            <p class="text-sm">Thalis, North Indian, Chinese, Biryani
+                Vidhansabha Marg</p>
+        </div>
+    </div>
+    
+    <div class="rounded flex shadow shadow-black mr-10 mb-2  w-80 h-60 img3Box" >
+        <div class="w-2/4 bg-cover bg-center img3" style="background-image: url(img/EggFoodjpg.jpg);"></div>
+        <div class="w-2/4 border border-black text-center place-items-center pt-10 pr-2 img3Text">
+            <h1 class="text-2xl">Chola Rice Combo</h1>
+            <h1 class="text-lg">&#8377; <strike>300</strike> 299 Only</h1>
+            <p class="text-sm">Thalis, North Indian, Chinese, Biryani
+                Vidhansabha Marg</p>
+        </div>
+    </div>
+    
+    <div class="rounded flex shadow shadow-black mr-10 mb-2  w-80 h-60 img3Box" >
+        <div class="w-2/4 bg-cover bg-center img3" style="background-image: url(img/samosha.jpg);"></div>
+        <div class="w-2/4 border border-black text-center place-items-center pt-10 pr-2 img3Text">
+            <h1 class="text-2xl">Chola Rice Combo</h1>
+            <h1 class="text-lg">&#8377; <strike>300</strike> 299 Only</h1>
+            <p class="text-sm">Thalis, North Indian, Chinese, Biryani
+                Vidhansabha Marg</p>
+        </div>
+    </div>
+    
+    
+
+    </div>
+
+
+</div>
+  </div>
+
+  <div class="text-center">
+            <button class="w-60 h-14 p-3 border-2 rounded mt-10 shadow shadow-black hover:bg-gray-200 showBtn">Show
+                More..</button>
+        </div>
+    </main>
+
+    <!--navebar-->
+    <footer class="bg-black p-4 mt-4 h-full w-cover pb-10">
+        <div class="">
+            <div class="grid place-items-center text-gray-300">
+                <button class=" mr-4 flex float-left justify-items-center place-items-center">
+                    <span class="text-4xl font-bold font-serif  pr-1">F</span>
+                    <svg class="" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-egg-fried" viewBox="0 0 16 16">
+                        <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                        <path
+                            d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z" />
+                    </svg>
+                    <span class="pl-1 text-4xl font-bold font-serif ">ODS</span>
+                </button>
+            </div>
+            <p class="text-xl text-gray-300">@2024 Saurabh Developer Pvt. Ltd</p>
+        </div>
+        <div class="flex mt-5">
+            <div class="w-1/2 pl-2 h-60 gap-2 text-center mb-6">
+                <div class="w-40 h-auto text-start ml-20">
+                    <h1 class="text-xl font-bold text-white">Company</h1>
+                    <p class="fText">About</p>
+                    <p class="fText">Careers</p>
+                    <p class="fText">Team</p>
+                    <p class="fText">Foods One</p>
+                    <p class="fText">Foods Genie</p>
+                </div>
+
+                <div class="legal w-40 h-auto text-start ml-20 mt-10">
+                    <h1 class="text-2xl font-bold text-white ">Legal</h1>
+                    <p class="fText">Terms & Conditions</p>
+                    <p class="fText">Cookie Policy</p>
+                    <p class="fText">Privacy Policy</p>
+                </div>
+            </div>
+            <div class="w-1/2 pl-2 h-60 gap-2 text-center">
+                <div class="w-40 text-start h-auto ml-10">
+                    <h1 class="text-2xl font-bold text-white">We deliver to:</h1>
+                    <p class="fText">Bangalore</p>
+                    <p class="fText">Gurgaon</p>
+                    <p class="fText">Hyderabad</p>
+                    <p class="fText">Delhi</p>
+                    <p class="fText">Mumbai</p>
+                    <p class="fText">Pune</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/Javascript" src="script.js"></script>
+</body>
+
+</html>
