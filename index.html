@@ -14,14 +14,14 @@
         <div id="h-box-left" style=" width: 80%; height: full; padding: 15px; text-align: start; place-items: center;">
             <!--title-->
             <button class=" mr-4 flex float-left justify-items-start place-items-center">
-                <span class="text-4xl font-bold font-serif text-orange-500 pr-1">F</span>
+                <span class="text-2xl font-bold font-serif text-orange-500 pr-1">F</span>
                 <svg class="text-yellow-400" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
                     fill="currentColor" class="bi bi-egg-fried" viewBox="0 0 16 16">
                     <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                     <path
                         d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z" />
                 </svg>
-                <span class="pl-1 text-4xl font-bold font-serif text-orange-500">ODS</span>
+                <span class="pl-1 text-2xl font-serif text-orange-500">ODS</span>
             </button>
             <!--Search btn and text-->
             <div class=" searchBox">
@@ -65,48 +65,48 @@
         <br>
         <!-- Items second-->
         <div class="mt-14 w-cover grid place-items-center border-b-2 border-gray-200">
-            <p class="text-4xl font-bold text-start">What's on my mind ?</p>
+            <p class="text-2xl font-bold text-start">What's on my mind ?</p>
 
             <div class="container ">
 
-                <div class="box">
+                <div onclick="detailsFood('boxx1')" class="box boxx1">
                     <img class="w-full h-36" src="Pizza1.jpg" alt="">
                     <p class="text-center text-2xl">Pizza</p>
                 </div>
-                <div class="box">
+                <div onclick="detailsFood('boxx2')" class="box boxx2">
                     <img class="w-full h-36" src="Image/north.jpg" alt="">
                     <p class="text-center text-2xl">North-Indian-Thali</p>
                 </div>
 
-                <div class="box">
+                <div onclick="detailsFood('boxx3')" class="box boxx3">
                     <img class="w-full h-36" src="Image/burger.jpg" alt="">
                     <p class="text-center text-2xl">Burger</p>
                 </div>
-                <div class="box">
+                <div onclick="detailsFood('boxx4')" class="box boxx4">
                     <img class="w-full h-36" src="Image/burger2.jpg" alt="">
                     <p class="text-center text-2xl">King-Burger</p>
                 </div>
-                <div class="box">
+                <div onclick="detailsFood('boxx5')" class="box boxx5">
                     <img class="w-full h-36" src="Image/eggroll.jpg" alt="">
                     <p class="text-center text-2xl">Egg-roll</p>
                 </div>
-                <div class="box">
+                <div onclick="detailsFood('boxx6')" class="box boxx6">
                     <img class="w-full h-36" src="Image/eggroll2.jpg" alt="">
                     <p class="text-center text-2xl">Chicken-Egg-roll</p>
                 </div>
-                <div class="box">
+                <div onclick="detailsFood('boxx7')" class="box boxx7">
                     <img class="w-full h-36" src="Image/chowmeen.jpg" alt="">
                     <p class="text-center text-2xl">Chowmine</p>
                 </div>
-                <div class="box">
+                <div onclick="detailsFood('boxx8')" class="box boxx8">
                     <img class="w-full h-36" src="Image/chicken.webp" alt="">
                     <p class="text-center text-2xl">Chicken</p>
                 </div>
-                <div class="box">
+                <div onclick="detailsFood('boxx9')" class="box boxx9">
                     <img class="w-full h-36" src="Image/chicken2.webp" alt="">
                     <p class="text-center text-2xl">Meet</p>
                 </div>
-                <div class="box">
+                <div  onclick="detailsFood('boxx10')" class="box boxx10">
                     <img class="w-full h-36" src="Image/motton.jpg" alt="">
                     <p class="text-center text-2xl">Motton</p>
                 </div>
@@ -119,12 +119,12 @@
 
         <!--top food in gorakhpur-->
         <div class="mt-14 inline-block overflow-x-auto w-cover grid place-items-center border-b-2 border-gray-200">
-             <p class="text-4xl font-bold"> Gorakhpuri Fresh & Famous dish ...</p>
+             <p class="text-2xl font-bold"> Gorakhpuri Fresh & Famous dish ...</p>
             <div class="h-80 flex overflow-x-auto place-items-center inline-block place-self-center ">
        
-    <div class="h-full p-4 gap-2 topDiv">
+    <div class="h-full p-4 gap-2 topDiv" onclick="detailsFood2(1)">
             <div class="shadow-black shadow mr-2 w-52 h-72 bg-gray-200 overflow-hidden rounded">
-                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" style="background-image: url(img/dal.jpg);"></div>
+                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" id="famusFood1" style="background-image: url(img/dal.jpg);"></div>
                 <div class="pl-1 pr-1 img2Text">
                     <h2 class="img2Title text-xl text-center ">Indian Puls</h2>
                     <p class="text-start">Experience the vibrant flavors of India with our authentic pulses, packed with rich taste and nutritional goodness.</p>
@@ -132,9 +132,9 @@
             </div>
         </div>
 
-        <div class="h-full p-4 gap-2 topDiv">
+        <div class="h-full p-4 gap-2 topDiv" onclick="detailsFood2(2)">
             <div class="shadow-black shadow mr-2 w-52 h-72 bg-gray-200 overflow-hidden rounded">
-                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" style="background-image: url(img/biryani.jpg);"></div>
+                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" id="famusFood2" style="background-image: url(img/biryani.jpg);"></div>
                 <div class="pl-1 pr-1 img2Text">
                     <h2 class="img2Title text-xl text-center ">Biryani</h2>
                     <p class="text-start">Savory spices, tender meat, aromatic rice—biryani, a flavorful delight</p>
@@ -142,9 +142,9 @@
             </div>
         </div>
 
-        <div class="h-full p-4 gap-2 topDiv">
+        <div class="h-full p-4 gap-2 topDiv" onclick="detailsFood2(3)">
             <div class="shadow-black shadow mr-2 w-52 h-72 bg-gray-200 overflow-hidden rounded">
-                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" style="background-image: url(img/frout.jpg);"></div>
+                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" id="famusFood3" style="background-image: url(img/frout.jpg);"></div>
                 <div class="pl-1 pr-1 img2Text">
                     <h2 class="img2Title text-xl text-center ">Frouts</h2>
                     <p class="text-start">Start your day fresh with a colorful array of morning fruits.</p>
@@ -152,9 +152,9 @@
             </div>
         </div>
 
-        <div class="h-full p-4 gap-2 topDiv">
+        <div class="h-full p-4 gap-2 topDiv" onclick="detailsFood2(4)">
             <div class="shadow-black shadow mr-2 w-52 h-72 bg-gray-200 overflow-hidden rounded">
-                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" style="background-image: url(img/northIndianFood.jpg);"></div>
+                <div class="bg-cover bg-center h-2/3 bg-red-300 img2" id="famusFood4" style="background-image: url(img/northIndianFood.jpg);"></div>
                 <div class="pl-1 pr-1 img2Text">
                     <h2 class="img2Title text-xl text-center ">North-Indian-Thali</h2>
                     <p class="text-start">Experience the rich flavors of North Indian cuisine in our authentic thali, a culinary tradition passed down through generations</p>
@@ -211,9 +211,6 @@
                     Vidhansabha Marg</p>
             </div>
         </div>
-        
-        
-
         </div>
 <!--box 3 of 2-->
 <div class="img3box1 flex">
@@ -293,7 +290,7 @@
   </div>
 
   <div class="text-center">
-            <button class="w-60 h-14 p-3 border-2 rounded mt-10 shadow shadow-black hover:bg-gray-200 showBtn">Show
+            <button class="w-60 h-14 p-3 border-2 rounded mt-10 shadow shadow-black hover:bg-rose-600 showBtn">Show
                 More..</button>
         </div>
     </main>
@@ -303,14 +300,14 @@
         <div class="">
             <div class="grid place-items-center text-gray-300">
                 <button class=" mr-4 flex float-left justify-items-center place-items-center">
-                    <span class="text-4xl font-bold font-serif  pr-1">F</span>
+                    <span class="text-2xl font-bold font-serif  pr-1">F</span>
                     <svg class="" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                         class="bi bi-egg-fried" viewBox="0 0 16 16">
                         <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                         <path
                             d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z" />
                     </svg>
-                    <span class="pl-1 text-4xl font-bold font-serif ">ODS</span>
+                    <span class="pl-1 text-2xl font-bold font-serif ">ODS</span>
                 </button>
             </div>
             <p class="text-xl text-gray-300">@2024 Saurabh Developer Pvt. Ltd</p>

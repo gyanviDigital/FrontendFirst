@@ -101,10 +101,12 @@ transform: scale(.95);
 .img3Box:hover{
   transition: 2s ease-in-out;
   transform:rotatey(40deg);
-
-
 }
+
+
 @media only screen and (max-width: 601px)  {
+
+ 
   
 .box1Text:hover{
   transition: 2s;
@@ -130,7 +132,7 @@ transition: 2s ease-in-out;
 }
 .showBtn:hover{
   transition: 2s;
-  background-color: purple;
+  background-color: rgb(128, 0, 0);
   transform: scale(.9);
   color: white;
 }

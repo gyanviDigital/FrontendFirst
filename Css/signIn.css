@@ -1,0 +1,101 @@
+body {
+    height: 500px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#box1 {
+    width: 200px;
+    height: 260px;
+    background-color: rgb(0, 200, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#box1::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    transition: 2s;
+    background-color: rgb(255, 0, 251);
+    border-bottom-right-radius: 200px;
+
+}
+
+#box1:hover::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 260px;
+    transition: 2s;
+    transform: scale(2);
+}
+
+.box2 {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 3;
+}
+
+.inp {
+    outline: none;
+    margin-top: 10px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.sub {
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    margin-left: -50px;
+    overflow: hidden;
+}
+
+.sub::before {
+    margin-left: -50px;
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 0px;
+    transition: 2s;
+    background-color: #52df16;
+    margin-top: -20px;
+
+}
+
+.sub:hover:before {
+    content: "";
+    position: absolute;
+    width: 140px;
+    height: 40px;
+}
+
+.subText {
+    margin: -10px -20px;
+    position: absolute;
+}
+
+.a {
+    text-decoration: none;
+    text-align: start;
+    margin-left: -76px;
+    font-size: 13px;
+}
+.sub:active{
+    background-color: rgba(21, 198, 94, 0.368);
+}

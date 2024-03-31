@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(to Top,rgb(163, 108, 6),rgb(252, 252, 55));
+  }
+  *{
+    color: white;
+  }
+  header {
+    place-items: center;
+    background-color: #1c9440;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  li:hover,p:hover{
+color: rgb(255, 0, 255);
+  }
+#backBtn{
+  width: 4em;
+  height: 4em;
+  background-color: transparent;
+  border-radius: 50%;
+}
